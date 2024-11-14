@@ -1,10 +1,6 @@
 public class Conejo extends Mascota {
     private String raza;
 
-    public Conejo() {
-        super();
-    }
-
     public Conejo(String tipo, int edad, String color, String raza) {
         super(tipo, color, edad);
         this.raza = raza;
@@ -18,11 +14,7 @@ public class Conejo extends Mascota {
         return raza;
     }
 
-    public void setRaza(String raza) {
-        this.raza = raza;
-    }
-
-    public void mostrarDatos() {
+    public void mostrarDatos1() {
         System.out.println("Raza: " + getRaza());
     }
 

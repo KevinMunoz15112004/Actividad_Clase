@@ -8,7 +8,7 @@ public class Ardilla extends Mascota {
     public void mostrarDatos() {
         System.out.println("Color: " + color);
     }
-    public void imprimirDatos() {
+    public void imprimirDatos1() {
         System.out.println("Tamaño: " + tamaño);
     }
 }

@@ -20,31 +20,7 @@ public class Gato extends Mascota {
         super(tipo, color, edad);
     }
 
-    public String getNombre() {
-        return nombre;
-    }
-
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
-    public double getPeso() {
-        return peso;
-    }
-
-    public void setPeso(double peso) {
-        this.peso = peso;
-    }
-
-    public boolean isEsterilizado() {
-        return esterilizado;
-    }
-
-    public void setEsterilizado(boolean esterilizado) {
-        this.esterilizado = esterilizado;
-    }
-
-    public void imprimirDatos() {
+    public void imprimirDatos2() {
         System.out.println("Nombre: " + nombre);
         System.out.println("Peso: " + peso);
         System.out.println("Esterilizado: " + (esterilizado ? "Sí" : "No"));

@@ -13,7 +13,13 @@ public class Mascota {
         this.edad = edad;
     }
 
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
 
+    public void setColor(String color) {
+        this.color = color;
+    }
     public void setEdad(int edad) {
         this.edad = edad;
     }
@@ -22,5 +28,10 @@ public class Mascota {
         System.out.println("Tipo: " + tipo);
         System.out.println("Color: " + color);
         System.out.println("Edad: " + edad);
+    }
+
+    public void detallar(){
+        System.out.println(tipo + " " + color + " " + " " + edad);
+
     }
 }

@@ -16,22 +16,10 @@ public class Perro extends Mascota{
         this.raza = raza;
     }
 
-
-    public int getEdad() {
-        return edad;
-    }
-
     public void setEdad(int edad) {
         this.edad = edad;
     }
 
-    public String getRaza() {
-        return raza;
-    }
-
-    public void setRaza(String raza) {
-        this.raza = raza;
-    }
 
     public void mostrarDetalles() {
         System.out.println("Nombre: " + nombre + ", Edad: " + edad + ", Raza: " + raza);
