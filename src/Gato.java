@@ -29,4 +29,5 @@ public class Gato extends Mascota {
     public void imprimirSaludo() {
         System.out.println("Miau! Soy " + nombre + " y peso " + peso + " kg.");
     }
+
 }

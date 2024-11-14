@@ -21,4 +21,5 @@ public class Conejo extends Mascota {
     public void mostrarDatosConFormato() {
         System.out.printf("Conejo {Raza: %s}%n", raza);
     }
+
 }

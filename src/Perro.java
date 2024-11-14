@@ -20,7 +20,6 @@ public class Perro extends Mascota{
         this.edad = edad;
     }
 
-
     public void mostrarDetalles() {
         System.out.println("Nombre: " + nombre + ", Edad: " + edad + ", Raza: " + raza);
     }

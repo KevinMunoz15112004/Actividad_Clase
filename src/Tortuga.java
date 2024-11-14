@@ -9,7 +9,6 @@ public class Tortuga extends Mascota{
     }
 
     public Tortuga() {
-
     }
 
     public Tortuga(String tipo,String color,int edad){

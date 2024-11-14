@@ -52,6 +52,5 @@ public class Main {
         tortuga2.setEdad(20);
         tortuga2.imprimirDatos();
         tortuga2.detallar();
-
     }
 }

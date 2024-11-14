@@ -4,7 +4,6 @@ public class Mascota {
     int edad;
 
     public Mascota() {
-
     }
 
     public Mascota(String tipo, String color, int edad) {
